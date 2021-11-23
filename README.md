@@ -3,7 +3,7 @@ Amazon Aurora DB is an enterprise relational database engine compatible with MyS
 
 We are going to use the minimal recommended configuration to deploy an RDS in AWS in a safe mner, and please remember that deploying a Database with public access to the internet is not recommended, it's considered a serious security flaw, the recommended way to expose your database is limiting the endpoint access to consumers inside your VPC, to be able to connect to the database we are going to create an EC2 instance with public access to the internet that will work as a bastion instance. 
 
-![demonstration architecture](img/archlitecture.png)
+![demonstration architecture](img/architecture.png)
 
 
 Deploying all these resources manually can be tricky, and after completing this demonstration you might want to destroy the entire environment without the need to pick manually resources that you have created before to avoid undesired charges, for these reasons we are going to use Terraform
