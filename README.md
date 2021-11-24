@@ -39,5 +39,5 @@ You need to confirm with "yes" and Terraform will create the resource in your AW
 ![amazon aurora over the years](img/amazonauroraovertheyears.png)
 ![compared by region](img/comparedbyregion.png)
 ![Interestovertime ](img/Interestovertime.png)
-![zones](img/zones.png)
+![zones](img/Zones.png)
 ![read replica](img/read-replica-cross-region.png)
