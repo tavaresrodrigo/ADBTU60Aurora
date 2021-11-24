@@ -35,7 +35,7 @@ var.instance_key_name
 You need to confirm with "yes" and Terraform will create the resource in your AWS account. The whole process can take up to 4 minutes, let's use this time learn a little bit more about Aurora DB in our next session. 
 
 ### A little bit more about AWS Aurora DB
-![magic quadrant ](magicquadrant.png)
-![amazon aurora over the years](amazonauroraovertheyears.png)
-![compared by region](comparedbyregion.png)
-![Interestovertime ](Interestovertime.png)
+![magic quadrant ](img/magicquadrant.png)
+![amazon aurora over the years](img/amazonauroraovertheyears.png)
+![compared by region](img/comparedbyregion.png)
+![Interestovertime ](img/Interestovertime.png)
