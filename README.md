@@ -5,5 +5,8 @@ We are going to use the minimal recommended configuration to deploy an RDS in AW
 
 ![demonstration architecture](img/archlitecture.png)
 
+Deploying all these resources manually can be tricky, and after completing this demonstration you may want to destroy the entire environment without the need to pick manually resources that you have created before just to avoid undesired charges, for these reasons we are going to use Terraform. Let's define a resource called aws\_db\_instance and name it "default", feel free to go straight tot the [main.tf](terraform/main.tf) and deploy your detabase if you already know how the define the AWS resources in Terraform, if you are just getting started, not problem at all, we will approach each step until you are able to connect to your database in the Cloud. 
 
-Deploying all these resources manually can be tricky, and after completing this demonstration you might want to destroy the entire environment without the need to pick manually resources that you have created before to avoid undesired charges, for these reasons we are going to use Terraform
+First we need to grab the default security group ID in the AWS Management Console VPC.
+
+
