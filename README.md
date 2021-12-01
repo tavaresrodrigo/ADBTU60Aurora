@@ -39,8 +39,6 @@ On 12th November 2014, AWS announced Amazon Aurora as the MySQL compatible Amazo
 
 ![amazon aurora over the years](img/amazonauroraovertheyears.png)
 
-### The evolution of Aurora DB over the past 7 years
-As part of the InnoDB exercise, we are going to create a MySQL read replica \ref{fig:readreplica} in a different AWS Region from the source DB instance, this will improve our disaster recovery capabilities, scale read operations into an AWS Region closer to our users, and make it easier to migrate from a data center in one AWS Region to a data center in another AWS Region.
 
 ### Google Trends
 ![compared by region](img/comparedbyregion.png)
