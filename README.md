@@ -33,9 +33,24 @@ var.instance_key_name
 
 You need to confirm with "yes" and Terraform will create the resource in your AWS account. The whole process can take up to 4 minutes, let's use this time learn a little bit more about Aurora DB in our next session. 
 
-### A little bit more about AWS Aurora DB
-![magic quadrant ](img/magicquadrant.png)
+### The evolution of Aurora DB over the past 7 years
+
+On 12th November 2014, AWS announced Amazon Aurora as the MySQL compatible Amazon Relational Database Service (RDS) that was launched previously in 2009, at the time the service was designed for 99.99\% availability and was equiped with mechanisms that allowed automatically recovery from instance and storage failures, over the time new features and capabilities were added. Let’s see now Aurora DB has evolved in this past almost 8 years. 
+
 ![amazon aurora over the years](img/amazonauroraovertheyears.png)
+
+### The evolution of Aurora DB over the past 7 years
+As part of the InnoDB exercise, we are going to create a MySQL read replica \ref{fig:readreplica} in a different AWS Region from the source DB instance, this will improve our disaster recovery capabilities, scale read operations into an AWS Region closer to our users, and make it easier to migrate from a data center in one AWS Region to a data center in another AWS Region.
+
+### Google Trends
 ![compared by region](img/comparedbyregion.png)
+
+
+With AWS RDS and Azure SQL Database services massive adoption, only a small portion of the market was left for Google Cloud SQL as we can see from the Interest over time Graph. 
+
+Google Trends data reflects searches people make on Google but also automated searches or queries that may be associated with attempts to spam our search results, the data revealed in the following graphics does not represent the products adoption around the world, but the people interest based on the searchs on Google. 
+
+
 ![Interestovertime ](img/Interestovertime.png)
-![read replica](img/read-replica-cross-region.png)
+
+
